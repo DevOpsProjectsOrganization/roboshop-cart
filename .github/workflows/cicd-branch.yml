@@ -9,4 +9,5 @@ jobs:
     uses: DevOpsProjectsOrganization/roboshop-github-actions/.github/workflows/ci-branch.yml@main
     with : 
         app_type: nodejs
+        app_name : cart
   
