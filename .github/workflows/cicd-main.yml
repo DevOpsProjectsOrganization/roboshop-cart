@@ -10,4 +10,4 @@ jobs:
     with : 
       app_type: nodejs
       app_name : cart
-      app_env : dev-cluster
+      app_env : dev
