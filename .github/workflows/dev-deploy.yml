@@ -1,0 +1,13 @@
+name : CICD main
+on: 
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+jobs:
+  reusable_workflow:
+    uses: DevOpsProjectsOrganization/roboshop-github-actions/.github/workflows/deploy.yml@main
+    with : 
+      app_name : cart
+      app_env : dev
+      enabled : false
